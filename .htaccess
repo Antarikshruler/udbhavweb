@@ -1,0 +1,14 @@
+#ErrorDocument 404 http://msritudbhav.in/404.html
+
+
+
+
+
+# Google Analytics Integration - Added by cPanel.
+<IfModule mod_substitute.c>
+AddOutputFilterByType SUBSTITUTE text/html
+Substitute "s|(<script type='text/javascript' src='/google_analytics_auto.js'></script>)?</head>|<script src='/google_analytics_auto.js'></script></head>|i"
+</IfModule>
+# END Google Analytics Integration
+AuthName "2014"
+AuthUserFile "/home2/udbhav/.htpasswds/public_html/2014/passwd"
