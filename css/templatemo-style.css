@@ -101,7 +101,7 @@ body {
 
 .bg__first {
   background-image: url(
-    ../images/first-bg.png
+    ../images/first-bg.jpg
   );
 }
 .bg__first .container {
@@ -686,7 +686,7 @@ footer {
 #heading-pages h2 {
   margin-top: 60px;
   font-size: 22px;
-  color: #1e1e1e;
+  color: #000000;
   font-weight: 700;
   text-transform: uppercase;
   border-bottom: 1px solid #0073aa;
@@ -696,6 +696,7 @@ footer {
 #heading-pages p {
   margin-top: 5px;
   padding-bottom: 50px;
+  color: #000000;
 }
 
 .main-post {
